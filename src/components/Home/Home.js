@@ -1,11 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
-import "./Home.css"
-
-function Home(){
-    return (
-        <div>Home Section Here</div>
-=======
 import "./Home.css";
 import Typewriter from "typewriter-effect";
 import myResume from "./Resume.pdf"
@@ -37,7 +30,6 @@ function Home(){
                 </div>
             </div>
         </div>
->>>>>>> 93d5ecd7 (Initial commit)
     )
 }
 

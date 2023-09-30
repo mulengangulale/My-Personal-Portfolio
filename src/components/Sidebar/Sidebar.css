@@ -7,10 +7,7 @@
     height: 100vh;
     width: 95px;
     background-color: black;
-<<<<<<< HEAD
-=======
     position: fixed; 
->>>>>>> 93d5ecd7 (Initial commit)
 }
 
 .container-fluid{
@@ -20,11 +17,8 @@
 }
 
 .sidebar-expand{
-<<<<<<< HEAD
-    width: 230px;
-=======
+
     width: 300px;
->>>>>>> 93d5ecd7 (Initial commit)
 }
 .icon-for-sidebar-expand-and-collapse{
     display: flex;
