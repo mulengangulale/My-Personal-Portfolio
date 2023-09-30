@@ -10,6 +10,10 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
     "react-scripts": "5.0.1",
+<<<<<<< HEAD
+=======
+    "typewriter-effect": "^2.21.0",
+>>>>>>> 93d5ecd7 (Initial commit)
     "web-vitals": "^2.1.4"
   },
   "scripts": {

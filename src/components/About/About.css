@@ -1,0 +1,14 @@
+.about-section{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(122,117,122,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(122,117,122,1);
+    box-shadow: 10px 10px 5px 0px rgba(122,117,122,1);
+}
+.about-image img{
+    margin-left: 290px;
+    height: 300px;
+    width: 300px;
+    border-radius: 190px;
+    margin-top: 50px;
+    border: 5px solid black;
+    
+}
