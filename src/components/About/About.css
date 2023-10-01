@@ -1,14 +1,34 @@
+
+
 .about-section{
     -webkit-box-shadow: 10px 10px 5px 0px rgba(122,117,122,1);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(122,117,122,1);
-    box-shadow: 10px 10px 5px 0px rgba(122,117,122,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgb(207, 201, 207);
+    box-shadow: 10px 10px 5px 0px rgb(210, 207, 210);
+    margin-top: 50px;
 }
 .about-image img{
-    margin-left: 290px;
+    margin-left: 200px;
     height: 300px;
     width: 300px;
     border-radius: 190px;
     margin-top: 50px;
+    margin-bottom: 50px;
     border: 5px solid black;
     
 }
+.about-details{
+    margin-top: 50px;
+}
+
+.about-title h5{
+    text-align: center !important;
+}
+
+.line{
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 1px auto;
+    background-color: black;
+}
+

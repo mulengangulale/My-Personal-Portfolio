@@ -7,7 +7,7 @@ function Home(){
     return (
         <div className="container-fluid home">
             <div className="container home-content">
-                <h1>I am Mulenga Ngulale and I am a</h1>
+                <h1>My name is Mulenga Ngulale and I'm a</h1>
                 <h3>
                     <Typewriter
                         options={{
