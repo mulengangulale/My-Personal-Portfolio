@@ -1,0 +1,70 @@
+.section-title h5{
+    text-align: center !important;
+}
+
+.techstack-section{
+    margin-top: 40px;
+    height: auto;
+}
+.tech-content{
+    padding: 10px;
+    color: black;
+
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(122,117,122,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgb(207, 201, 207);
+    box-shadow: 10px 10px 5px 0px rgb(210, 207, 210);
+    margin-top: 50px;
+}
+
+.tech-content p{
+    text-align: center !important;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tech-content:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition-duration: 1s;
+
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(122,117,122,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgb(180, 175, 180);
+    box-shadow: 10px 10px 5px 0px rgb(163, 161, 163);
+    margin-top: 50px;
+}
+.tech-number{
+    border-radius: 90px;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+    line-height: 50px;
+}
+
+.tech-number:hover{
+    background-color: white;
+    color: black;
+}
+
+.load-more{
+    background-color: black;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    cursor: pointer;
+
+}
