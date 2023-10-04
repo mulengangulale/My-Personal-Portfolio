@@ -60,7 +60,7 @@ function TechStack (){
                             <p>{item.name}</p>
                         </div>
                     </div>
-                ))};
+                ))}
             </div>
             {showMoreTechStack >= data.length ? null : <span onClick={loadMore} className="load-more">Load More</span>}
         </div>

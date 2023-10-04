@@ -13,7 +13,7 @@
     -webkit-box-shadow: 10px 10px 5px 0px rgba(122,117,122,1);
     -moz-box-shadow: 10px 10px 5px 0px rgb(207, 201, 207);
     box-shadow: 10px 10px 5px 0px rgb(210, 207, 210);
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .tech-content p{
@@ -65,6 +65,7 @@
     margin-right: auto;
     border-radius: 5px;
     margin-bottom: 40px;
+    margin-top: 40px;
     cursor: pointer;
 
 }
