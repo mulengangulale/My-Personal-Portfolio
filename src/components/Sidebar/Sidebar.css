@@ -1,25 +1,26 @@
 .sidebar-section{
     display: flex;
+    
     /* background-color: black; */
 }
 
 .sidebar{
     height: 100vh;
-    width: 95px;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    width:35vh;
+    padding-top: 40px;
     position: fixed; 
+
+
 }
 
-.container-fluid{
-    padding-left: 0px!important;
-    padding-right: 0px!important;
-    overflow: hidden;
-}
+/* .sidebar-expand{
 
-.sidebar-expand{
-
-    width: 250px;
-}
+    width: 255px;
+} */
 .icon-for-sidebar-expand-and-collapse{
     display: flex;
     align-items: right;

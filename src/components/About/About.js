@@ -4,7 +4,8 @@ import DisplayShot from "../../image/Headshot.jpeg"
 
 function About(){
     return(
-        <div className="container about-section">
+        <div>
+            <div className="container ml-auto about-section">
             <div className="row">
                 <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div className="about-image">
@@ -27,6 +28,7 @@ function About(){
 
                     </div>
             </div>
+        </div>
         </div>
     )
 }

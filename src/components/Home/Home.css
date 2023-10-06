@@ -2,15 +2,19 @@
     height: 400px;
     background-color: black;
     color: white;
-    text-align: center !important;
-    margin-left: 40px;
-    /* padding-right: 300px; */
+    left: 0;
+    position: flex;
+    justify-content: center;
+    text-align: center;
+    /* justify-self: start; */
+    /* box-sizing: border-box; */
+    /* margin-left: 40px; Commented to to optimize space and control behavior of home*/      
 }
+
 
 .home-content h3 {
     margin-top: 20px;
     color: white;
-    /* text-align: left; */
 }
 
 .home-content h1{
@@ -18,9 +22,8 @@
     flex-direction: column;
     justify-content: center;
     padding: 10px;
-    /* margin-left: 300px; */
-    margin-top: 100px;
-    /* padding-right: 300px; */
+    padding-top: 100px;
+    
 }
 
 .button-for-action{
