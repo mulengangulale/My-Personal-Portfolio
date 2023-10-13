@@ -57,11 +57,11 @@ function Project(){
         },
         {
             name: "Lorem Ipsum",
-            des: "Lorem ipsum banbo confus consus ipsum lorem decapo sisha en lancada delapops. Lorem ipsum banbo confus consus ipsum lorem decapo sisha en lancada delapops. Lorem ipsum banbo confus consus ipsum lorem decapo sisha en lancada delapops",
+            des: "Lorem ipsum banbo confus consus ipsum lorem decapo sisha en lancada delapops. Lorem ipsum banbo confus consus ipsum lorem decapo sisha en lancada delapops",
             projectlink: "#None",
             techused: [
                 {techname: "Lorem"},
-                {techname: "Ipsum"},
+                {techname: "Lorem"},
                 {techname: "Lorem"}
             ]
         }

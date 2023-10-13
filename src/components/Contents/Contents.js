@@ -4,14 +4,16 @@ import About from '../About/About';
 import Home from '../Home/Home';
 import TechStack from '../TechStack/TechStack';
 import Project from '../Projects/Project';
+import WorkExperience from '../WorkExperience/WorkExperience';
 
 const Content = () => {
   return (
     <>
         <Home />
         <About />
-        <TechStack />
+        <WorkExperience />
         <Project />
+        <TechStack />
     </>
   );
 };

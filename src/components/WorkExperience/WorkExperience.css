@@ -1,0 +1,20 @@
+.top-space{
+    margin-top: 70px;
+}
+
+.tech-skills{
+    background-color: white;
+    text-align: center;
+    border-radius: 90px;
+    padding: 5px;
+    margin-top: 10px;
+    color: black;
+}
+
+.tech-skills:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.date-class{
+    color: black;
+}
