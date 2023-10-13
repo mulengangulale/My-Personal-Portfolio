@@ -20,12 +20,17 @@
     margin: 5px;
 }
 
+.description{
+    font-family:'Times New Roman', Times, serif;
+}
+
 .tech-used-in-project{
     background-color: black;
     color: white;
     border-radius: 90px;
     text-align: center;
     margin: 5px;
+    padding: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -34,13 +39,15 @@
     color: white;
     border-radius: 90px;
     width: fit-content;
+    text-align: center;
     margin: 5px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .live-demo-button a{
     color: white;
     text-decoration: none;
-    padding: 10px;
 }
 .live-demo-button:hover{
     background-color: rgb(56, 52, 49);
