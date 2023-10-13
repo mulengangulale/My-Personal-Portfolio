@@ -6,6 +6,7 @@ import TechStack from '../TechStack/TechStack';
 import Project from '../Projects/Project';
 import WorkExperience from '../WorkExperience/WorkExperience';
 import Education from '../Education/Education';
+import Contact from '../Contact/Contact';
 
 const Content = () => {
   return (
@@ -16,6 +17,7 @@ const Content = () => {
         <WorkExperience />
         <Project />
         <TechStack />
+        <Contact />
     </>
   );
 };
