@@ -1,0 +1,48 @@
+.project-list{
+    margin-left: 50px;
+    padding: 5px;
+    border-radius: 2px;
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(122,117,122,1);
+    -moz-box-shadow: 10px 10px 10px 0px rgb(207, 201, 207);
+    box-shadow: 10px 10px 5px 0px rgb(210, 207, 210);
+    margin-top: 25px;
+}
+
+.project-list:hover{
+    border-left: 5px solid black;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.title-and-collapse-option{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.tech-used-in-project{
+    background-color: black;
+    color: white;
+    border-radius: 90px;
+    text-align: center;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.live-demo-button{
+    background-color: black;
+    color: white;
+    border-radius: 90px;
+    width: fit-content;
+    margin: 5px;
+}
+
+.live-demo-button a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.live-demo-button:hover{
+    background-color: rgb(56, 52, 49);
+    transition-duration: 1s;
+}
