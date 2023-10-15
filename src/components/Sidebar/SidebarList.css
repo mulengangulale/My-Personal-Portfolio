@@ -32,3 +32,12 @@
 .navbar-items-only-icons ul li svg{
     margin-left: 10x;
 }
+
+.navbar-items ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item .active {
+    border-left: 2px solid white;
+}

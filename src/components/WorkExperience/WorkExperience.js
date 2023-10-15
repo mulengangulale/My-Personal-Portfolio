@@ -84,7 +84,7 @@ const WorkExperience = () => {
     }
   ]
   return (
-    <div className="container">
+    <div className="container" id="workexperience">
 
         <div className="section-title">
           <h5 className="top-space">Work Experience</h5>

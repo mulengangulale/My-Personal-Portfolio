@@ -5,7 +5,7 @@ import myResume from "./Resume.pdf"
 
 function Home(){
     return (
-        <div className="container-fluid home">
+        <div className="container-fluid home" id="home">
             <div className="container home-content">
                 <h1>My name is Mulenga Ngulale and I'm a</h1>
                 <h3>

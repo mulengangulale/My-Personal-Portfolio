@@ -7,6 +7,8 @@ import Project from '../Projects/Project';
 import WorkExperience from '../WorkExperience/WorkExperience';
 import Education from '../Education/Education';
 import Contact from '../Contact/Contact';
+import ScrollToTop from "react-scroll-to-top";
+
 
 const Content = () => {
   return (
@@ -18,6 +20,7 @@ const Content = () => {
         <Project />
         <TechStack />
         <Contact />
+        <ScrollToTop smooth height='20' width='20' style={{borderRadius: "90px"}} />
     </>
   );
 };

@@ -5,7 +5,8 @@ import {AiOutlineHome, AiFillCode, AiFillMail} from "react-icons/ai"
 import {IoMdInformationCircleOutline, IoMdSchool} from "react-icons/io"
 import {IoBriefcaseSharp} from "react-icons/io5"
 import {FaNetworkWired} from "react-icons/fa";
-import {PiArticleFill} from "react-icons/pi";
+// import {PiArticleFill} from "react-icons/pi";
+import { Link } from "react-scroll";
 
 function SidebarList({expandSidebar}) {
     return (
@@ -16,27 +17,85 @@ function SidebarList({expandSidebar}) {
                     <img src={profilepic} alt="My Headshot"/>
                 </div>
                 <ul>
-                    <li className="nav-item"> <AiOutlineHome size={25} color="white"/> Home </li>
-                    <li className="nav-item"> <IoMdInformationCircleOutline size={25} color="white"/> About </li>
-                    <li className="nav-item"> <IoBriefcaseSharp size={25} color="white"/> Work Experience </li>
-                    <li className="nav-item"> <AiFillCode size={25} color="white"/> Tech Stack </li>
-                    <li className="nav-item"> <IoMdSchool size={25} color="white"/> Education</li>
-                    <li className="nav-item"> <FaNetworkWired size={25} color="white"/> Projects </li>
-                    <li className="nav-item"> <PiArticleFill size={25} color="white"/> Blog Posts </li>
-                    <li className="nav-item"> <AiFillMail size={25} color="white"/> Contact </li>
+                    <li className="nav-item"> 
+                        <Link to="home" spy={true} smooth={true}> 
+                            <AiOutlineHome size={25} color="white"/> Home 
+                        </Link>
+                    </li>
+                    <li className="nav-item"> 
+                        <Link to="about" spy={true} smooth={true}>
+                            <IoMdInformationCircleOutline size={25} color="white"/> About 
+                        </Link>
+                    </li>
+
+                    <li className="nav-item"> 
+                        <Link to="education" spy={true} smooth={true}>
+                            <IoMdSchool size={25} color="white"/> Education
+                        </Link>
+                    </li>
+                    <li className="nav-item"> 
+                        <Link to="workexperience" spy={true} smooth={true}>
+                            <IoBriefcaseSharp size={25} color="white"/> Work Experience
+                        </Link> 
+                    </li>
+                    <li className="nav-item"> 
+                        <Link to="projects" spy={true} smooth={true}>
+                            <FaNetworkWired size={25} color="white"/> Projects 
+                        </Link> 
+                    </li>
+                    <li className="nav-item"> 
+                        <Link to="techstack" spy={true} smooth={true}>
+                            <AiFillCode size={25} color="white"/> Tech Stack 
+                        </Link> 
+                    </li>
+                    {/* <li className="nav-item"> <PiArticleFill size={25} color="white"/> Blog Posts </li> */}
+                    <li className="nav-item"> 
+                        <Link to="contact" spy={true} smooth={true}>
+                            <AiFillMail size={25} color="white"/> Contact
+                        </Link> 
+                    </li>
                 </ul>
             </div>
         ) : (
             <div className="navbar-items-only-icons">
-                <ul>
-                    <li className="nav-item"> <AiOutlineHome size={25} color="white"/></li>
-                    <li className="nav-item"> <IoMdInformationCircleOutline size={25} color="white"/></li>
-                    <li className="nav-item"> <IoBriefcaseSharp size={25} color="white"/></li>
-                    <li className="nav-item"> <AiFillCode size={25} color="white"/></li>
-                    <li className="nav-item"> <IoMdSchool size={25} color="white"/></li>
-                    <li className="nav-item"> <FaNetworkWired size={25} color="white"/></li>
-                    <li className="nav-item"> <PiArticleFill size={25} color="white"/></li>
-                    <li className="nav-item"> <AiFillMail size={25} color="white"/></li>
+            <ul>
+                    <li className="nav-item"> 
+                        <Link to="home" spy={true} smooth={true}> 
+                            <AiOutlineHome size={25} color="white"/> 
+                        </Link>
+                    </li>
+                    <li className="nav-item"> 
+                        <Link to="about" spy={true} smooth={true}>
+                            <IoMdInformationCircleOutline size={25} color="white"/>
+                        </Link>
+                    </li>
+
+                    <li className="nav-item"> 
+                        <Link to="education" spy={true} smooth={true}>
+                            <IoMdSchool size={25} color="white"/> 
+                        </Link>
+                    </li>
+                    <li className="nav-item"> 
+                        <Link to="workexperience" spy={true} smooth={true}>
+                            <IoBriefcaseSharp size={25} color="white"/> 
+                        </Link> 
+                    </li>
+                    <li className="nav-item"> 
+                        <Link to="projects" spy={true} smooth={true}>
+                            <FaNetworkWired size={25} color="white"/> 
+                        </Link> 
+                    </li>
+                    <li className="nav-item"> 
+                        <Link to="techstack" spy={true} smooth={true}>
+                            <AiFillCode size={25} color="white"/>  
+                        </Link> 
+                    </li>
+                    {/* <li className="nav-item"> <PiArticleFill size={25} color="white"/> Blog Posts </li> */}
+                    <li className="nav-item"> 
+                        <Link to="contact" spy={true} smooth={true}>
+                            <AiFillMail size={25} color="white"/> 
+                        </Link> 
+                    </li>
                 </ul>
             </div>
         )}

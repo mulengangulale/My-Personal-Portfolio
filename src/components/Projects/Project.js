@@ -67,7 +67,7 @@ function Project(){
         }
     ]
     return (
-        <div className="container">
+        <div className="container" id="projects">
             <div className="section-title">
                 <h5>Projects</h5>
                 <span className="line"></span>

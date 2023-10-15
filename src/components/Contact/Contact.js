@@ -4,7 +4,7 @@ import {BsSend} from "react-icons/bs"
 
 const Contact = () => {
   return (
-    <div className='container contact-section'>
+    <div className='container contact-section' id="contact">
         <div className="section-title contact-heading">
           <h5 className="top-space">Contact Me</h5>
           <span className="line"></span>
