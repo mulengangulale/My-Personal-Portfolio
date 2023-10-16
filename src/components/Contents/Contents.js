@@ -8,11 +8,13 @@ import WorkExperience from '../WorkExperience/WorkExperience';
 import Education from '../Education/Education';
 import Contact from '../Contact/Contact';
 import ScrollToTop from "react-scroll-to-top";
+import NavBarMobileView from '../NavBarMobileView/NavBarMobileView';
 
 
 const Content = () => {
   return (
     <>
+        <NavBarMobileView />
         <Home />
         <About />
         <Education />

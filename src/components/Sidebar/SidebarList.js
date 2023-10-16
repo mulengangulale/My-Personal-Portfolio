@@ -18,39 +18,39 @@ function SidebarList({expandSidebar}) {
                 </div>
                 <ul>
                     <li className="nav-item"> 
-                        <Link to="home" spy={true} smooth={true}> 
+                        <Link to="home" smooth={true}> 
                             <AiOutlineHome size={25} color="white"/> Home 
                         </Link>
                     </li>
                     <li className="nav-item"> 
-                        <Link to="about" spy={true} smooth={true}>
+                        <Link to="about" smooth={true}>
                             <IoMdInformationCircleOutline size={25} color="white"/> About 
                         </Link>
                     </li>
 
                     <li className="nav-item"> 
-                        <Link to="education" spy={true} smooth={true}>
+                        <Link to="education" smooth={true}>
                             <IoMdSchool size={25} color="white"/> Education
                         </Link>
                     </li>
                     <li className="nav-item"> 
-                        <Link to="workexperience" spy={true} smooth={true}>
+                        <Link to="workexperience" smooth={true}>
                             <IoBriefcaseSharp size={25} color="white"/> Work Experience
                         </Link> 
                     </li>
                     <li className="nav-item"> 
-                        <Link to="projects" spy={true} smooth={true}>
+                        <Link to="projects" smooth={true}>
                             <FaNetworkWired size={25} color="white"/> Projects 
                         </Link> 
                     </li>
                     <li className="nav-item"> 
-                        <Link to="techstack" spy={true} smooth={true}>
+                        <Link to="techstack" smooth={true}>
                             <AiFillCode size={25} color="white"/> Tech Stack 
                         </Link> 
                     </li>
                     {/* <li className="nav-item"> <PiArticleFill size={25} color="white"/> Blog Posts </li> */}
                     <li className="nav-item"> 
-                        <Link to="contact" spy={true} smooth={true}>
+                        <Link to="contact" smooth={true}>
                             <AiFillMail size={25} color="white"/> Contact
                         </Link> 
                     </li>
@@ -58,45 +58,45 @@ function SidebarList({expandSidebar}) {
             </div>
         ) : (
             <div className="navbar-items-only-icons">
-            <ul>
+                {/* <ul>
                     <li className="nav-item"> 
-                        <Link to="home" spy={true} smooth={true}> 
+                        <Link to="home" smooth={true}> 
                             <AiOutlineHome size={25} color="white"/> 
                         </Link>
                     </li>
                     <li className="nav-item"> 
-                        <Link to="about" spy={true} smooth={true}>
+                        <Link to="about" smooth={true}>
                             <IoMdInformationCircleOutline size={25} color="white"/>
                         </Link>
                     </li>
 
                     <li className="nav-item"> 
-                        <Link to="education" spy={true} smooth={true}>
+                        <Link to="education" smooth={true}>
                             <IoMdSchool size={25} color="white"/> 
                         </Link>
                     </li>
                     <li className="nav-item"> 
-                        <Link to="workexperience" spy={true} smooth={true}>
+                        <Link to="workexperience" smooth={true}>
                             <IoBriefcaseSharp size={25} color="white"/> 
                         </Link> 
                     </li>
                     <li className="nav-item"> 
-                        <Link to="projects" spy={true} smooth={true}>
+                        <Link to="projects" smooth={true}>
                             <FaNetworkWired size={25} color="white"/> 
                         </Link> 
                     </li>
                     <li className="nav-item"> 
-                        <Link to="techstack" spy={true} smooth={true}>
+                        <Link to="techstack" smooth={true}>
                             <AiFillCode size={25} color="white"/>  
                         </Link> 
                     </li>
-                    {/* <li className="nav-item"> <PiArticleFill size={25} color="white"/> Blog Posts </li> */}
+                    <li className="nav-item"> <PiArticleFill size={25} color="white"/> Blog Posts </li>
                     <li className="nav-item"> 
-                        <Link to="contact" spy={true} smooth={true}>
+                        <Link to="contact" smooth={true}>
                             <AiFillMail size={25} color="white"/> 
                         </Link> 
                     </li>
-                </ul>
+                </ul> */}
             </div>
         )}
         

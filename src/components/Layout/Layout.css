@@ -2,3 +2,9 @@
 .col-lg-10{
     padding: 0 !important;
 }
+
+/* @media (max-width: 100px) {
+    .sidebar{
+        display: none;
+    }
+} */

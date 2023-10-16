@@ -41,3 +41,11 @@
 .nav-item .active {
     border-left: 2px solid white;
 }
+
+.nav-item:hover{
+    border-left: 2px solid white;
+    /* background-color: gray; */
+    transition-duration: 1s;
+    /* padding: 10px;
+    border-radius: 90px; */
+}
