@@ -6,7 +6,7 @@ const Layout = ({ sidebar, content }) => {
   return (
     
     <div className="container-fluid">
-      <div className="row">
+      <div className="row main-view">
         {/* Sidebar */}
         <div className="col-lg-2">
           {sidebar}

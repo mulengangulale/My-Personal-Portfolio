@@ -9,11 +9,13 @@ import Education from '../Education/Education';
 import Contact from '../Contact/Contact';
 import ScrollToTop from "react-scroll-to-top";
 import NavBarMobileView from '../NavBarMobileView/NavBarMobileView';
+import MobileLayout from '../MobileLayout/MobileLayout';
 
 
 const Content = () => {
   return (
     <>
+        <MobileLayout />
         <NavBarMobileView />
         <Home />
         <About />
