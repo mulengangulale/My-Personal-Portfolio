@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import "./Contact.css"
-import {BsSend} from "react-icons/bs"
+import {BsSend} from "react-icons/bs";
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
     const API = "http://localhost:8080/sendemail";
@@ -27,12 +29,19 @@ const Contact = () => {
         .then(res=>res.json())
         .then((result) => {
             if(result.error){
-              
+              toast.error(result.error, {
+                position: toast.POSITION.TOP_RIGHT
+              })
+            }else{
+                toast.success("Your Email has been sent", {
+                    position: toast.POSITION.TOP_RIGHT
+                })
+                setName("");
+                setEmail("");
+                setJobType("");
+                setMessage("");
             }
-            setName("");
-            setEmail("");
-            setJobType("");
-            setMessage("");
+            
         })
         .catch((err)=>{
             console.log(err);
@@ -103,6 +112,7 @@ const Contact = () => {
                 </div>
             </div>
         </div>
+        <ToastContainer aboutClose={8000}/>
     </div>
   )
 }

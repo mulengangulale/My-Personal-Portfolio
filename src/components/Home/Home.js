@@ -1,7 +1,8 @@
 import React from "react";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
-import myResume from "./Resume.pdf"
+import myResume from "./Resume.pdf";
+import { Link } from "react-scroll";
 
 function Home(){
     return (
@@ -20,7 +21,8 @@ function Home(){
                 </h3>
                 <div className="button-for-action">
                     <div className="hire-me-button">
-                        Hire Me
+                        <Link to="contact" smooth={true}> Hire Me </Link>
+                        
                     </div>
                     <div className="get-resume-button">
                         <a href={myResume} rel="noopener noreferrer" target="_blank">

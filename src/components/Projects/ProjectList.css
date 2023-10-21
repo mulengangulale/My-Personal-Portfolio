@@ -1,15 +1,17 @@
 .project-list{
     margin-left: 50px;
-    padding: 5px;
+    padding: 20px;
     border-radius: 2px;
     -webkit-box-shadow: 10px 10px 10px 0px rgba(122,117,122,1);
     -moz-box-shadow: 10px 10px 10px 0px rgb(207, 201, 207);
     box-shadow: 10px 10px 5px 0px rgb(210, 207, 210);
     margin-top: 25px;
+    background-color: black;
+    color: white;
 }
 
 .project-list:hover{
-    border-left: 5px solid black;
+    border-left: 5px solid rgb(164, 147, 147);
     cursor: pointer;
     transition-duration: 1s;
 }
@@ -25,8 +27,8 @@
 }
 
 .tech-used-in-project{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 90px;
     text-align: center;
     margin: 5px;
@@ -35,8 +37,8 @@
 }
 
 .live-demo-button{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 90px;
     width: fit-content;
     text-align: center;
@@ -46,7 +48,7 @@
 }
 
 .live-demo-button a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 .live-demo-button:hover{
