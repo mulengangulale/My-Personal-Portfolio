@@ -9,7 +9,7 @@
 .tech-content{
     padding: 10px;
     color: black;
-
+    /* background-color: black; */
     -webkit-box-shadow: 10px 10px 5px 0px rgba(122,117,122,1);
     -moz-box-shadow: 10px 10px 5px 0px rgb(207, 201, 207);
     box-shadow: 10px 10px 5px 0px rgb(210, 207, 210);
@@ -18,7 +18,7 @@
 
 .tech-content p{
     text-align: center !important;
-    padding-top: 30px;
+    padding-top: 20px;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

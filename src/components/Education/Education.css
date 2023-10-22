@@ -1,0 +1,32 @@
+/* .education{
+    
+} */
+.education-info{
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(255, 253, 255);
+    -moz-box-shadow: 10px 10px 5px 0px rgb(233, 230, 233);
+    box-shadow: 10px 10px 5px 0px rgb(237, 235, 237);
+    padding: 30px;
+    margin-top: 50px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.right-align{
+    text-align: right;
+}
+.relevant-course{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.course-section{
+    background-color: black;
+    color: white;;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(122,117,122,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgb(207, 201, 207);
+    box-shadow: 10px 10px 5px 0px rgb(210, 207, 210);
+}
+.course-section h6{
+    text-align: center;
+    padding: 20px;
+}

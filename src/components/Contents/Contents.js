@@ -21,8 +21,8 @@ const Content = () => {
         <About />
         <Education />
         <WorkExperience />
-        <Project />
         <TechStack />
+        <Project />
         <Contact />
         <ScrollToTop smooth height='20' width='20' style={{borderRadius: "90px"}} />
     </>
