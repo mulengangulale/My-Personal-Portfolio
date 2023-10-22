@@ -58,7 +58,7 @@ const Contact = () => {
             <div className='col-xl-5 col-lg-5 col-md-5 col-sm-5'>
                 <div className='contact-form-image'>
                     <img 
-                        src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW5fKOIQgEooflFOZMIYoCP7QUK8sq9yfb3Q&usqp=CAU'
+                        src='https://images.unsplash.com/photo-1587560699334-bea93391dcef?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvbnRhY3R8ZW58MHx8MHx8fDA%3D'
                         alt='Contact'
                     />
                 </div>
