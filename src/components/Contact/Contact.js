@@ -1,32 +1,27 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import "./Contact.css"
 import {BsSend} from "react-icons/bs";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import emailjs from '@emailjs/browser';
+// require("dotenv").config();
 
 const Contact = () => {
-    const API = "http://localhost:8080/sendemail";
+    const form = useRef()
 
-    const [name, setName]  = useState();
-    const [email, setEmail]  = useState();
-    const [jobtype, setJobType]  = useState();
-    const [message, setMessage]  = useState();
+    const [fName, setName]  = useState("");
+    const [email, setEmail]  = useState("");
+    const [jobtype, setJobType]  = useState("");
+    const [message, setMessage]  = useState("");
 
-    const sendEmail = () =>{
-        fetch(API, {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                Accept: "application.json"
-            },
-            body: JSON.stringify({
-                name,
-                email,
-                jobtype,
-                message
-            })
-        })
-        .then(res=>res.json())
+    const sendEmail = (e) =>{
+        e.preventDefault();
+        emailjs.sendForm(
+            process.env.REACT_APP_SERVICE_ID, 
+            process.env.REACT_APP_TEMPLATE_ID, 
+            form.current, 
+            process.env.REACT_APP_PUBLIC_KEY
+            )
         .then((result) => {
             if(result.error){
               toast.error(result.error, {
@@ -43,13 +38,11 @@ const Contact = () => {
             }
             
         })
-        .catch((err)=>{
-            console.log(err);
-        })
     }
 
   return (
     <div className='container contact-section' id="contact">
+    <h1>{process.env.REACT_APP_SERVICE_ID}</h1>
         <div className="section-title contact-heading">
           <h5 className="top-space">Contact Me</h5>
           <span className="line"></span>
@@ -65,30 +58,30 @@ const Contact = () => {
             </div>
             <div className='col-xl-7 col-lg-7 col-md-7 col-sm-7'>
                 <div className='contact-form-design'>
-                    {/* <div className='text-center'>
-                        <h5>Contact Me</h5>
-                    </div> */}
-                    <form>
+                    <form ref={form} onSubmit={sendEmail}>
                         <div className='Contact-form'>
                             <label className='label-form'>Name</label>
                             <input type='text' className='form-control'
-                                value={name}
-                                onChange={(e)=>setName(e.target.value)}
+                                name="user_name"
+                                value={fName}
+                                onChange={(e)=> setName(e.target.value)}
                             />
 
                         </div>
                         <div className='Contact-form'>
                             <label className='label-form'>Email</label>
                             <input type='text' className='form-control'
+                                name="user_email"
                                 value={email}
-                                onChange={(e)=>setEmail(e.target.value)}
+                                onChange={(e)=> setEmail(e.target.value)}
                             />
                         </div>
                         <div className='Contact-form'>
-                            <label className='label-form'>Job Types</label> <br></br>
+                            <label className='label-form'>Job Type</label> <br></br>
                             <select className='custom-select'
+                                name="job_type"
                                 value={jobtype}
-                                onChange={(e)=>setJobType(e.target.value)}
+                                onChange={(e)=> setJobType(e.target.value)}
                             >
                                 <option>Recruiter</option>
                                 <option>Manager</option>
@@ -101,12 +94,13 @@ const Contact = () => {
                         <div className='Contact-form'>
                             <label className='label-form'>Message</label>
                             <textarea rows={4} type='text' className='form-control'
+                                name="message"
                                 value={message}
-                                onChange={(e)=>setMessage(e.target.value)}
+                                onChange={(e)=> setMessage(e.target.value)}
                             />
                         </div>
                         <div className='button-submit' onClick={sendEmail}>
-                            <div>Send <BsSend scale={20}/></div>
+                            <div><input type="submit" value="Send"/> <BsSend scale={20}/></div>
                         </div>
                     </form>
                 </div>
