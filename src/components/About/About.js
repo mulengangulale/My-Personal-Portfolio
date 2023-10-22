@@ -19,10 +19,10 @@ function About(){
                                     <span className="line"></span>
                                 </div>
                                 <p>
-                                    Mulenga Ngulale is a resilient and driven third-year student majoring in Computer Engineering with a minor in Mathematics. 
-                                    Combining creativity with flexibility, Mulenga exhibits a powerful blend of strong communication, adept problem-solving, 
-                                    and proven leadership skills. His current objective is to apply and enhance these skills in roles related to software 
-                                    development, data analysis, and robotics.
+                                    Mulenga Ngulale is a determined third-year student majoring in Computer Engineering with a 
+                                    minor in Mathematics and Physics. Mulenga is all about combining creativity, flexibility, excellent 
+                                    communication, smart problem-solving, and strong leadership skills. Right now, he's eager to 
+                                    use these skills in jobs related to software development, data analysis, and robotics.
                                 </p>
                             </div>
 

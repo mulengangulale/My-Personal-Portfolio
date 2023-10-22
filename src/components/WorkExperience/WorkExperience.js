@@ -119,7 +119,7 @@ const WorkExperience = () => {
               {item.des}
             </p>
           </VerticalTimelineElement>
-          ))};
+          ))}
       
         </VerticalTimeline>
     </div>

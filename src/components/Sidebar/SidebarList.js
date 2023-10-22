@@ -39,13 +39,13 @@ function SidebarList({expandSidebar}) {
                         </Link> 
                     </li>
                     <li className="nav-item"> 
-                        <Link to="projects" smooth={true}>
-                            <FaNetworkWired size={25} color="white"/> Projects 
+                        <Link to="techstack" smooth={true}>
+                            <AiFillCode size={25} color="white"/> Tech Stack 
                         </Link> 
                     </li>
                     <li className="nav-item"> 
-                        <Link to="techstack" smooth={true}>
-                            <AiFillCode size={25} color="white"/> Tech Stack 
+                        <Link to="projects" smooth={true}>
+                            <FaNetworkWired size={25} color="white"/> Projects 
                         </Link> 
                     </li>
                     {/* <li className="nav-item"> <PiArticleFill size={25} color="white"/> Blog Posts </li> */}

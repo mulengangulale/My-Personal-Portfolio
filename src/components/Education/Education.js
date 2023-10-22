@@ -30,6 +30,7 @@ const Education = () => {
               <h6>Minor:  Math, Physics</h6>
               <h6>Presidential Scholar</h6>
               <h6>4x President's List</h6>
+              <h6>4.0 GPA</h6>
             </div>
           </div>
           <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12'>
