@@ -5,20 +5,9 @@ import ProjectList from "./ProjectList";
 function Project(){
     const data = [
         {
-            name: "E-Commerce Site",
-            des: "This is an one line E-commerce site. It is a replica of Airbnb. Lorem ipsum banbo confus consus ipsum lorem decapo sisha en lancada delapops. Lorem ipsum banbo confus consus ipsum lorem decapo sisha en lancada delapops",
-            projectlink: "#None",
-            techused: [
-                {techname: "MongoDB"},
-                {techname: "Express JS"},
-                {techname: "React Js"},
-                {techname: "Node Js"}
-            ]
-        },
-        {
             name: "Simone Game",
-            des: "The Simon game is the exciting electronic game of lights and sounds in which players must repeat random sequences of lights by pressing the colored pads in the correct order. In this project, I created the Simon Game to to be played with the same instructions but virtually.",
-            projectlink: "#None",
+            des: "The Simon game is an exhilarating electronic experience filled with captivating lights and sounds. Players are challenged to replicate random sequences of lights by tapping the colored pads in the correct order. For this project, I've reimagined the Simon Game for a virtual play, preserving the same instructions and excitement.",
+            projectlink: "https://github.com/mulengangulale/My-Simon-Game",
             techused: [
                 {techname: "Node Js"},
                 {techname: "HTML"},
@@ -27,8 +16,8 @@ function Project(){
         },
         {
             name: "Python Quiz Game",
-            des: "This is a Python Quiz Game that laverages Graphical User interface and Object Oriented Programming to create a game where user is asked to answer some questions. Lorem ipsum banbo confus consus ipsum lorem decapo sisha en lancada delapops",
-            projectlink: "#None",
+            des: "Allow me to introduce a captivating Python Quiz Game that skillfully utilizes the magic of Graphical User Interface (GUI) and the robust foundation of Object-Oriented Programming (OOP). This unique game seamlessly integrates these elements to create an interactive and engaging experience where users are presented with a set of thought-provoking questions to answer.",
+            projectlink: "https://github.com/mulengangulale/GUI-Quiz-Game",
             techused: [
                 {techname: "Python"},
                 {techname: "OOP"},
@@ -37,8 +26,8 @@ function Project(){
         },
         {
             name: "Tin Dog",
-            des: "This is a web replica for tinder but for dogs. It is bacially a site where dogs can go maybe find their soulmates. Lorem ipsum banbo confus consus ipsum lorem decapo sisha en lancada delapops",
-            projectlink: "#None",
+            des: "Presenting an innovative web replica that takes the concept of Tinder and tailors it for dogs. This delightful platform offers our four-legged friends the opportunity to connect with potential canine companions, providing a space for them to socialize, make friends, and perhaps even discover their soulmates among their fellow furry companions.",
+            projectlink: "https://github.com/mulengangulale/My-TinDog-Project",
             techused: [
                 {techname: "Bootstrap"},
                 {techname: "HTML"},
@@ -47,8 +36,8 @@ function Project(){
         },
         {
             name: "Web Keeper App",
-            des: "This is an online web keeper app for people to write what they want and for them to keep it to a personalized online keeper. Lorem ipsum banbo confus consus ipsum lorem decapo sisha en lancada delapops",
-            projectlink: "#None",
+            des: "Introducing an online web keeper app designed for individuals to freely express their thoughts and securely store them in a personalized digital vault. This platform empowers users to document their thoughts, dreams, and memories in a private and convenient online repository.",
+            projectlink: "https://github.com/mulengangulale/Web-Based-Keeper-App",
             techused: [
                 {techname: "Node Js"},
                 {techname: "HTML"},
@@ -56,13 +45,24 @@ function Project(){
             ]
         },
         {
-            name: "Lorem Ipsum",
-            des: "Lorem ipsum banbo confus consus ipsum lorem decapo sisha en lancada delapops. Lorem ipsum banbo confus consus ipsum lorem decapo sisha en lancada delapops",
+            name: "Hangman",
+            des: "This game is a wordplaying and brain-teasing fun web-based Hangman game. Test your linguistic skills, broaden your vocabulary, and enjoy the classic challenge of guessing the hidden word one letter at a time. Get ready to embark on an exciting journey of word puzzles right here on our website!",
+            projectlink: "https://github.com/mulengangulale/Web-Based-Hangman-Game",
+            techused: [
+                {techname: "Python"},
+                {techname: "Java Script"},
+                {techname: "HTML & CSS"}
+            ]
+        },
+        {
+            name: "E-Commerce Site",
+            des: "Introducing Pro-Shop, your go-to online E-commerce destination. Just like Amazon, users can browse and shop for a wide range of items. With the ability to easily add or remove items from their cart, they have the freedom to curate their shopping experience as they please.",
             projectlink: "#None",
             techused: [
-                {techname: "Lorem"},
-                {techname: "Lorem"},
-                {techname: "Lorem"}
+                {techname: "MongoDB"},
+                {techname: "Express JS"},
+                {techname: "React Js"},
+                {techname: "Node Js"}
             ]
         }
     ]
