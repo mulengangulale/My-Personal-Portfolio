@@ -5,7 +5,7 @@ import Sidebar from "./components/Sidebar/Sidebar";
 // import Project from "./components/Projects/Project";
 import Layout from "./components/Layout/Layout";
 import Content from "./components/Contents/Contents";
-import MobileLayout from "./components/MobileLayout/MobileLayout";
+// import MobileLayout from "./components/MobileLayout/MobileLayout";
 
 // import Home from "./components/Home/Home";
 
