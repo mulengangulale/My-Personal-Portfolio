@@ -91,17 +91,17 @@ const WorkExperience = () => {
           <span className="line"></span>
         </div>
 
-        <VerticalTimeline lineColor="black">
+        <VerticalTimeline lineColor="rgb(14, 16, 159)">
           {data.map((item, index)=>(
             <VerticalTimelineElement
             key={index}
             className="vertical-timeline-element--work"
             // style={containerStyle}
-            contentStyle={{ background: 'black', color: 'white' }}
-            contentArrowStyle={{ borderRight: '7px solid  black' }}
+            contentStyle={{ background: "rgb(14, 16, 159)", color: 'white' }}
+            contentArrowStyle={{ borderRight: '7px solid  "rgb(14, 16, 159)"' }}
             date={item.period}
             dateClassName="date-class"
-            iconStyle={{ background: 'black', color: 'white' }}
+            iconStyle={{ background: "rgb(14, 16, 159)", color: 'white' }}
             icon={<BsPersonWorkspace />}
           >
             <h3 className="vertical-timeline-element-title">{item.companyname}</h3>

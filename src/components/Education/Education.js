@@ -24,7 +24,7 @@ const Education = () => {
         </div>
         <div className='row education-info'>
           <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12'>
-            <div >
+            <div className='center' >
               <h5>Bethune-Cookman University</h5>
               <h6>B.S Honors Computer Engineering</h6>
               <h6>Minor:  Math, Physics</h6>

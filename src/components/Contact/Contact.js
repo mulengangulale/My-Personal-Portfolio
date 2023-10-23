@@ -4,7 +4,6 @@ import {BsSend} from "react-icons/bs";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import emailjs from '@emailjs/browser';
-// require("dotenv").config();
 
 const Contact = () => {
     const form = useRef()
@@ -42,7 +41,6 @@ const Contact = () => {
 
   return (
     <div className='container contact-section' id="contact">
-    <h1>{process.env.REACT_APP_SERVICE_ID}</h1>
         <div className="section-title contact-heading">
           <h5 className="top-space">Contact Me</h5>
           <span className="line"></span>

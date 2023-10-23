@@ -10,6 +10,9 @@
     font-family: Verdana, Tahoma, sans-serif;
 }
 
+.center{
+    /* text-align: center; */
+}
 .right-align{
     text-align: right;
 }
@@ -20,7 +23,7 @@
     margin-bottom: 30px;
 }
 .course-section{
-    background-color: black;
+    background-color: rgb(14, 16, 159);
     color: white;;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(122,117,122,1);
     -moz-box-shadow: 10px 10px 5px 0px rgb(207, 201, 207);
